@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>The daily fitness</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="style.css" rel="stylesheet">
+   </head>
+   <body>
+    <div class="toppage"> 
+      <nav>
+            <a href="Sign in.html" class="navBar" target="_blank">Create account</a>
+            <a href="login.html" class="navBar" target="_blank">Member's Log In</a>
+       </nav>
+    </div>
+    <div class="topnav" id="myTopnav" style="background-image:url(yogabg.jpg)">
+         <a href="#" style="padding: 0px 16px;"><img src ="logo.png" alt="my logo"/></a>
+         <a href="index.html" class="navBar" target="_blank">Home</a>
+         <a href="yogapose.html"  class="navBar" target="_blank">Yoga Poss</a>
+         <a href="Cardio exercise.html"  class="navBar" target="_blank">Cardio exercise</a>
+         <a href="Program.html"  class="navBar" target="_blank">Programs</a>
+         <a href="About us.html"  class="navBar" target="_blank">About us</a>
+         <a href="contact us.html"  class="navBar" target="_blank">Contact us</a>
+         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      <div style="padding-top: 103px;">
+         <div id="fitness-image" style=" height: 580px;background: #e8eced url('yoga.jpg') no-repeat center; width:100%;" >
+            <div style="padding-left: calc(100% - 50%);padding-top: 210px;">
+
+            </div>
+         </div>
+      </div>
+	  <footer>
+    <div class="wrapper">
+      <div id="footer-info">
+        <p>Copyright &copy; 2020 Dhruvi Mistry. All rights reserved.</p>
+        <p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
+    </div>
+    <div id="footer-links">
+        <ul>
+              <li><a href="index.html" target="_blank">Home</a></li>
+              <li><a href="yoga.html" target="_blank">Yoga Poss</a></li>
+              <li><a href="Cardio exercise.html" target="_blank">Cardio exercise</a></li>
+              <li><a href="Program.html" target="_blank">Programs</a></li>
+              <li><a href="About us.html" target="_blank">About us</a></li>
+              <li><a href="contact us.html" target="_blank">Contact us</a></li>
+        </ul>
+        </ul>
+    </div>
+    <div class="clear"></div>
+    </div>
+	</footer>
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
+   </body>
+</html>
