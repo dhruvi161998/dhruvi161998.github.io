@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>The daily fitness</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+      <link href="style.css" rel="stylesheet">
+   <style>
+    .btn-primary {
+    color: #fff;
+    background-color:black;
+    border-color: #007bff;
+}
+   </style>
+   </head>
+   <body>
+    <div class="toppage"> 
+      <nav>
+        <a href="createaccount.html" class="navBar" target="_blank">Create account</a> 
+        <a href="login.html" class="navBar" target="_blank">Member's Log In</a>
+       </nav>
+     </div>
+       <div class="topnav" id="myTopnav" style="background-image:url(yogabg.jpg)">
+         <a href="#" style="padding: 0px 16px;"><img src ="logo.png" alt="my logo"/></a>
+         <a href="index.html" class="navBar" target="_blank">Home</a>
+         <a href="yogapose.html"  class="navBar" target="_blank">Yoga</a>
+         <a href="Program.html"  class="navBar" target="_blank">Programs</a>
+         <a href="About us.html"  class="navBar" target="_blank">About us</a>
+         <a href="contact us.html"  class="navBar" target="_blank">Contact us</a>
+         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      
+      
+      <!-- Content -->
+      <div style="padding-top: 103px;">
+        <div class="container" style="padding: 75px 0px; ">
+          <div class="card" style="border-radius:1.25em; width: 70%; margin-left: 100px;">
+            <div class="card-header" style="font-size:30px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center; color:black;">Get Started</div>
+            <div class="card-body">
+         <form>
+          <div class="form-group">
+            <label for="exampleInputFirstname" style="color:black;">First Name</label>
+            <input type="text" id="exampleInputFirstname" aria-describedby="emailHelp" placeholder="First name">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputLastname" style="color:black;">Last Name</label>
+            <input type="text" id="exampleInputLastname" placeholder="Last name">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1" style="color:black;">Email or Username</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" style="color:black;">create Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="At least have 8 character">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" style="color:black;">Confirm Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="At least have 8 character">
+          </div>
+          
+           <div class="form-check">
+            <input type="checkbox" class="form-check-input" style="margin-top:0.8em;" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1" style="padding: 10px;">I would like to recive update notification</label>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;"><b>Create account</b></button>
+          <br>
+         </form>
+          </div>
+        </div>
+      </div>
+      <!-- Content -->
+
+	  <footer>
+    <div class="wrapper">
+      <div id="footer-information">
+        <p>Copyright &copy; 2022 Dhruvi Mistry. All rights reserved.</p>
+        <p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
+    </div>
+    <div id="footermenu">
+        <ul>
+              <li><a href="index.html" target="_blank">Home</a></li>
+              <li><a href="yogapose.html" target="_blank">Yoga Poss</a></li>
+              <li><a href="Program.html" target="_blank">Programs</a></li>
+              <li><a href="About us.html" target="_blank">About us</a></li>
+              <li><a href="contact us.html" target="_blank">Contact us</a></li>
+        </ul>
+        </ul>
+    </div>
+    <div class="clear"></div>
+    </div>
+	</footer>
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
+   </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>The daily fitness</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="style.css" rel="stylesheet">
+   </head>
+   <style>
+ .Program
+ {
+     padding: 20px;
+ }
+ .Program img{
+    display: block;
+    width:auto;
+    margin-top: 9px;
+}
+.programname
+{
+   font-size: 20px;
+   border-bottom: 0.3em solid #F3C577;
+   width: 100%;
+   font-family: 'Times New Roman', Times, serif;
+   margin-top: 10px;
+   text-align: center;
+}
+   </style>
+   <body>
+      <div class="toppage"> 
+         <nav>
+            <a href="createaccount.html" class="navBar" target="_blank">Create account</a>
+            <a href="login.html" class="navBar" target="_blank">Member's Log In</a>
+          </nav>
+       </div>
+      <div class="topnav" id="myTopnav" style="background-image:url(yogabg.jpg)">
+         <a href="#" style="padding: 0px 16px;"><img src ="logo.png" alt="my logo"/></a>
+         <a href="index.html" class="navBar" target="_blank">Home</a>
+         <a href="yogapose.html"  class="navBar" target="_blank">Yoga</a>
+         <a href="Program.html"  class="navBar" target="_blank">Programs</a>
+         <a href="About us.html"  class="navBar" target="_blank">About us</a>
+         <a href="contact us.html"  class="navBar" target="_blank">Contact us</a>
+         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      <div style="padding-top: 103px;">
+         <!-- Content -->
+          <h1 style="padding-top:15px;"> Find A Program To Achive Your Goal </h1>
+          <hr>
+            <p style="font-size:20px; font-family:Georgia,serif; text-align:center;"> choose your desire program according to your need. <br> We provide wide range of programs from basic to advance </p>
+            <div class="Program">
+               <img src="yogapose.jpg"  width="30%" height="300" alt="yogaworkout">
+               <figcaption class="programname" style="padding-bottom:3px;">
+                  <details>
+                     <summary> 7 days yoga programs for  flow and restore energy</summary>
+                     <a href="#"><p> Select Now</p></a>
+                  </details>
+               </figcaption>
+            </div>
+            <div class="Program">
+               <img src="yoga1.jpg"  width="30%" height="300" alt="yogaworkout">
+               <figcaption class="programname" style="padding-bottom:3px;">
+                  <details><summary>7 days yoga programs for mind healing</summary>
+                     <a href="#"><p> Select Now </p></a>
+                  </details>
+               </figcaption>
+            </div>   
+            <div class="Program">
+               <img src="yoga2.jpg"  width="30%" height="300" alt="yogaworkout">
+               <figcaption class="programname" style="padding-bottom:3px;">
+                  <details> 
+                     <summary>7 days programs weight loss</summary>
+                     <a href="#"><p> Select Now </p></a>
+                  </details>
+               </figcaption>
+            </div>  
+            <div class="Program">
+               <img src="workout.jpg"  width="30%" height="300" alt="yogaworkout">
+               <figcaption class="programname" style="padding-bottom:3px;">
+                  <details><summary>7 days pilates glow</summary>
+                     <a href="#"><p> Select Now </p></a>
+                  </details> </figcaption>
+            </div> 
+            <div class="Program">
+               <img src="workout2.jpg"  width="30%" height="300" alt="yogaworkout">
+               <figcaption class="programname" style="padding-bottom:3px;"> 
+                  <details><summary>7 days intense workout</summary>
+                     <a href="#"><p> Select Now </p></a>
+                  </details> 
+               </figcaption>
+            </div> 
+         </div>
+          <!-- Content -->
+   </div>
+
+	  <footer>
+    <div class="wrapper">
+      <div id="footer-information">
+        <p>Copyright &copy; 2022 Dhruvi Mistry. All rights reserved.</p>
+        <p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
+    </div>
+    <div id="footermenu">
+        <ul>
+              <li><a href="index.html" target="_blank">Home</a></li>
+              <li><a href="yogapose.html" target="_blank">Yoga Poss</a></li>
+              <li><a href="Program.html" target="_blank">Programs</a></li>
+              <li><a href="About us.html" target="_blank">About us</a></li>
+              <li><a href="contact us.html" target="_blank">Contact us</a></li>
+        </ul>
+        </ul>
+    </div>
+    <div class="clear"></div>
+    </div>
+	</footer>
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
+   </body>
+</html>

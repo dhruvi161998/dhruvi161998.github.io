@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>The daily fitness</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="style.css" rel="stylesheet">
+   </head>
+   <style>
+ .Program
+ {
+     padding: 20px;
+     margin-left: 10%;
+ }
+ 
+.programname
+{
+   font-size: 20px;
+   border-bottom: 0.3em solid #F3C577;
+   width: 100%;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+}
+   </style>
+   <body>
+      <div class="toppage"> 
+         <nav>
+            <a href="createaccount.html" class="navBar" target="_blank">Create account</a>
+            <a href="login.html" class="navBar" target="_blank">Member's Log In</a>
+          </nav>
+       </div>
+      <div class="topnav" id="myTopnav" style="background-image:url(yogabg.jpg)">
+         <a href="#" style="padding: 0px 16px;"><img src ="logo.png" alt="my logo"/></a>
+         <a href="index.html" class="navBar" target="_blank">Home</a>
+         <a href="yogapose.html"  class="navBar" target="_blank">Yoga</a>
+         <a href="Program.html"  class="navBar" target="_blank">Programs</a>
+         <a href="About us.html"  class="navBar" target="_blank">About us</a>
+         <a href="contact us.html"  class="navBar" target="_blank">Contact us</a>
+         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      <div style="padding-top: 103px;">
+         <!-- Content -->
+          <h1 style="padding-top:15px;"> Types of Yoga </h1>
+          <p style="font-size:20px; font-family:Georgia,serif; text-align:center;"> Browse our extensive yoga pose library, with a vast collection of everything from basic to advanced poses <br>
+             for anxiety, weight loss, diegation, back pain and many more.</p>
+          <hr>
+            <div class="Program">
+               <h4 style="text-align:center;" > yoga for anxiety </h4>
+               <img src="yogaanxiety.jpg"  width="25%" height="300"alt="yogaworkout" style="padding: 2em;">                  
+               <img src="yogaanxiety2.jpg"  width="25%" height="300" alt="yogaworkout" style="padding: 2em;">                 
+               <img src="yogaanxiety3.jpg"  width="25%" height="300" alt="yogaworkout" style="padding: 2em;">
+               <a href="#"><figcaption class="programname"></figcaption></a>
+            </div>
+
+            <div class="Program">
+               <h4 style="text-align:center;" > yoga for diegation</h4>
+               <img src="yogadiegation.jpg"  width="25%" height="300" alt="yogaworkout" style="padding: 2em;">
+               <img src="yogadigetion2.jpg"  width="25%" height="300" alt="yogaworkout" style="padding: 2em;">
+               <img src="yogadiegation3.jpg"  width="25%" height="300" alt="yogaworkout" style="padding: 2em;">
+               <a href="#"><figcaption class="programname"></figcaption></a>
+            </div>   
+
+            <div class="Program">
+               <h4 style="text-align:center;" > yoga for weight loss</h4>
+               <img src="yogapose3.jpg"  width="25%" height="300" alt="yogaworkout" style="padding: 2em;">
+               <img src="yogapose5.jpg"  width="25%" height="300" alt="yogaworkout" style="padding: 2em;">
+               <img src="yogapose4.jpeg"  width="25%" height="300" alt="yogaworkout" style="padding: 2em;">
+               <a href="#"><figcaption class="programname"></figcaption></a>
+            </div>  
+            <div class="Program">
+               <h4 style="text-align:center;" > yoga for back pain </h4>
+               <img src="yogabackpain.jpg"  width="25%" height="300" alt="yogaworkout" style="padding: 2em;">
+               <img src="yogabackpain2.jpg"  width="25%" height="300" alt="yogaworkout" style="padding: 2em;">
+               <img src="yogaanxiety3.jpg"  width="25%" height="300" alt="yogaworkout" style="padding: 2em;">
+               <a href="#"><figcaption class="programname"> </figcaption></a>
+            </div> 
+         </div>
+          <!-- Content -->
+   </div>
+
+	  <footer>
+    <div class="wrapper">
+      <div id="footer-information">
+        <p>Copyright &copy; 2022 Dhruvi Mistry. All rights reserved.</p>
+        <p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
+    </div>
+    <div id="footermenu">
+        <ul>
+              <li><a href="index.html" target="_blank">Home</a></li>
+              <li><a href="yogapose.html" target="_blank">Yoga Poss</a></li>
+              <li><a href="Program.html" target="_blank">Programs</a></li>
+              <li><a href="About us.html" target="_blank">About us</a></li>
+              <li><a href="contact us.html" target="_blank">Contact us</a></li>
+        </ul>
+        </ul>
+    </div>
+    <div class="clear"></div>
+    </div>
+	</footer>
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
+   </body>
+</html>
